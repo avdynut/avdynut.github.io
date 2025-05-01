@@ -1,0 +1,8 @@
+############ avoids processing the files line endings in the deployment pipeline and results in client-side integrity checks passing
+# https://learn.microsoft.com/en-us/aspnet/core/blazor/host-and-deploy/webassembly/github-pages#deployment-notes
+*.js binary
+*.json binary
+*.html binary
+*.css binary
+*.webmanifest binary
+

@@ -1,13 +1,13 @@
 self.assetsManifest = {
-  "version": "8KC8sR/L",
+  "version": "8GWcw/Wf",
   "assets": [
     {
-      "hash": "sha256-ioXxtl+9LcxiQxBpYxwO78gU/JzQuaEzpXbhaiWkfpo=",
-      "url": "_framework/BabyPainter.26bo74sq69.wasm"
+      "hash": "sha256-t51Ps/ZXv6kwZ5TT+sHGI5NXQEulphjNAiO22mHgGKw=",
+      "url": "_framework/BabyPainter.Browser.jpai74iui6.wasm"
     },
     {
-      "hash": "sha256-ZDdAbFRkMr6z2fKpP9KcmgsBiEi4LV0aiBQ91QTDOUo=",
-      "url": "_framework/BabyPainter.Browser.4y1biih81i.wasm"
+      "hash": "sha256-OdgsCXLWtVSKN+4I+ZuOnwyISpNTqFsXNV5ag0iFtrU=",
+      "url": "_framework/BabyPainter.fmawqsmqqg.wasm"
     },
     {
       "hash": "sha256-U9sminMc3HSmezavWsQcVAi9l4nnmjgS+yoFYOek4Xc=",
@@ -470,7 +470,7 @@ self.assetsManifest = {
       "url": "_framework/System.f0fr8djds0.wasm"
     },
     {
-      "hash": "sha256-tVh/jZDg+4SmSgmIM46N2YVwluJ3+Qvngj1oEMngdk0=",
+      "hash": "sha256-bz+N41+TM35Z9YZihryRTGiKsZzrkP2+Ks34r4KNeuE=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -502,16 +502,16 @@ self.assetsManifest = {
       "url": "_framework/dotnet.runtime.cymp1amu5g.js"
     },
     {
-      "hash": "sha256-13RXXeQ/Sl3xZbrw17RRLFD9GLUCTxwNyRs9e5bgLIw=",
-      "url": "_framework/es/BabyPainter.resources.ldwxtbyoe8.wasm"
+      "hash": "sha256-chRU7GemVF+6x8w0TNNv+nekJyoUcAPnZ/LsqNtpEwM=",
+      "url": "_framework/es/BabyPainter.resources.q1x59fj15g.wasm"
     },
     {
       "hash": "sha256-Q+IEo6Y3ep+Yq3dGoNv+dONx+vbGjZWxMpZXpRNErfI=",
       "url": "_framework/es/System.ServiceModel.Primitives.resources.9x9e8vpihg.wasm"
     },
     {
-      "hash": "sha256-my9HGis+fZAb0+qk2w/lYOvG6oaramop/jSE+2YT2Hk=",
-      "url": "_framework/fr/BabyPainter.resources.vvqq198x07.wasm"
+      "hash": "sha256-i9ZpToEES0DCNWmYOn//Vk1n5WIp7U0itqhTL3LjcN4=",
+      "url": "_framework/fr/BabyPainter.resources.1d2ui0zpc1.wasm"
     },
     {
       "hash": "sha256-Co/FgGAC4oUBaOKCXGTGERxAzccQSoSd+jDV0zItEpE=",
@@ -558,8 +558,8 @@ self.assetsManifest = {
       "url": "_framework/pt-BR/System.ServiceModel.Primitives.resources.nv8fwc9o65.wasm"
     },
     {
-      "hash": "sha256-7lMR0KN4UHM9ZOD8uxDEYHxgG1WeifGBYmxkqDsnGtI=",
-      "url": "_framework/ru/BabyPainter.resources.q95lm03l6g.wasm"
+      "hash": "sha256-1yNxkB5j4GxJH3bRHShytj00bsvscnUQq38WYFEjH6A=",
+      "url": "_framework/ru/BabyPainter.resources.35i4nu83u8.wasm"
     },
     {
       "hash": "sha256-fQAeCI4Ux+XEPUlsPnMTjYRqiVhEV3VSdvFu4B+xccY=",
