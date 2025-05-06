@@ -1,4 +1,4 @@
-/* Manifest version: 8GWcw/Wf */
+/* Manifest version: xj2Yx1Uv */
 // Caution! Be sure you understand the caveats before publishing an application with
 // offline support. See https://aka.ms/blazor-offline-considerations
 
@@ -54,6 +54,12 @@ async function onFetch(event) {
         const request = shouldServeIndexHtml ? 'index.html' : event.request;
         const cache = await caches.open(cacheName);
         cachedResponse = await cache.match(request, { ignoreSearch: true });
+
+        if (!cachedResponse && event.request.destination === 'audio') {
+            const url = new URL(event.request.url);
+            const fallbackRequest = new Request(url.pathname, { cache: 'no-cache' });
+            cachedResponse = await cache.match(fallbackRequest, { ignoreSearch: true });
+        }
     }
 
     return cachedResponse || fetch(event.request);

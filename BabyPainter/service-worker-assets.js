@@ -1,13 +1,13 @@
 self.assetsManifest = {
-  "version": "8GWcw/Wf",
+  "version": "xj2Yx1Uv",
   "assets": [
     {
-      "hash": "sha256-t51Ps/ZXv6kwZ5TT+sHGI5NXQEulphjNAiO22mHgGKw=",
-      "url": "_framework/BabyPainter.Browser.jpai74iui6.wasm"
+      "hash": "sha256-iegZxwZgo6mfA1kZ/JAnIIH6zL4L2La2LnrEG03hli4=",
+      "url": "_framework/BabyPainter.Browser.r7yljxuy4h.wasm"
     },
     {
-      "hash": "sha256-OdgsCXLWtVSKN+4I+ZuOnwyISpNTqFsXNV5ag0iFtrU=",
-      "url": "_framework/BabyPainter.fmawqsmqqg.wasm"
+      "hash": "sha256-0/e9+lO/8SIFO2B1pR+isoARD6WKpN/Ue4dZR6G+HCk=",
+      "url": "_framework/BabyPainter.bi8n9xy2fn.wasm"
     },
     {
       "hash": "sha256-U9sminMc3HSmezavWsQcVAi9l4nnmjgS+yoFYOek4Xc=",
@@ -470,7 +470,7 @@ self.assetsManifest = {
       "url": "_framework/System.f0fr8djds0.wasm"
     },
     {
-      "hash": "sha256-bz+N41+TM35Z9YZihryRTGiKsZzrkP2+Ks34r4KNeuE=",
+      "hash": "sha256-Fi34wNQw8RAoFBvMEeBneSQ0LubqwibsQY5/HqVmjiE=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -502,16 +502,16 @@ self.assetsManifest = {
       "url": "_framework/dotnet.runtime.cymp1amu5g.js"
     },
     {
-      "hash": "sha256-chRU7GemVF+6x8w0TNNv+nekJyoUcAPnZ/LsqNtpEwM=",
-      "url": "_framework/es/BabyPainter.resources.q1x59fj15g.wasm"
+      "hash": "sha256-7QAZwnySYgKgrolvNeeIOiQmWFFrJywXaRDa1KXbfHs=",
+      "url": "_framework/es/BabyPainter.resources.zkmnlma9je.wasm"
     },
     {
       "hash": "sha256-Q+IEo6Y3ep+Yq3dGoNv+dONx+vbGjZWxMpZXpRNErfI=",
       "url": "_framework/es/System.ServiceModel.Primitives.resources.9x9e8vpihg.wasm"
     },
     {
-      "hash": "sha256-i9ZpToEES0DCNWmYOn//Vk1n5WIp7U0itqhTL3LjcN4=",
-      "url": "_framework/fr/BabyPainter.resources.1d2ui0zpc1.wasm"
+      "hash": "sha256-Md/PBwbGevGPOcsYozz5SEyDJzIF/RN5zNy9+Su5p7c=",
+      "url": "_framework/fr/BabyPainter.resources.b941dejwjt.wasm"
     },
     {
       "hash": "sha256-Co/FgGAC4oUBaOKCXGTGERxAzccQSoSd+jDV0zItEpE=",
@@ -558,8 +558,8 @@ self.assetsManifest = {
       "url": "_framework/pt-BR/System.ServiceModel.Primitives.resources.nv8fwc9o65.wasm"
     },
     {
-      "hash": "sha256-1yNxkB5j4GxJH3bRHShytj00bsvscnUQq38WYFEjH6A=",
-      "url": "_framework/ru/BabyPainter.resources.35i4nu83u8.wasm"
+      "hash": "sha256-qcBaloh0ZJrCiUls7+CeqC6IDpZ94HXcqwv4gyO1rz4=",
+      "url": "_framework/ru/BabyPainter.resources.bb0zbyq05b.wasm"
     },
     {
       "hash": "sha256-fQAeCI4Ux+XEPUlsPnMTjYRqiVhEV3VSdvFu4B+xccY=",
@@ -582,7 +582,7 @@ self.assetsManifest = {
       "url": "favicon.png"
     },
     {
-      "hash": "sha256-oNAtUKt6lkkI2jyU6qZQgod8tOoIoTY4s3u+8c8sse4=",
+      "hash": "sha256-STxNd5Dzqg5rzFSyFq6WuRTCzzO4LaMbvMw05QJwXfs=",
       "url": "index.html"
     },
     {
