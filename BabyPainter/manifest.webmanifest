@@ -3,7 +3,7 @@
   "short_name": "BabyPainter",
   "id": "./",
   "start_url": "./",
-  "display": "fullscreen",
+  "display": "standalone",
   "display_override": [ "window-controls-overlay" ],
   "background_color": "#ffffff",
   "theme_color": "#03173d",
