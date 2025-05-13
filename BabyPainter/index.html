@@ -12,6 +12,8 @@
     <meta property="og:title" content="BabyPainter - Draw and Learn Colors">
     <meta property="og:description" content="BabyPainter – a creative, playful app where kids can draw, paint, and learn colors.">
     <meta property="og:image" content="favicon.png">
+    <meta property="og:image:width" content="256"/>
+    <meta property="og:image:height" content="256"/>
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="BabyPainter">
 
@@ -31,6 +33,21 @@
             --opensilver-loading-progress-bar-color: #696969;
             --opensilver-loading-counter-color: #555;
             --opensilver-loading-progress-border-color: #c0c0c0;
+        }
+
+        .safe-area-bar {
+            display: none;
+        }
+
+        @supports (-webkit-touch-callout: none) {
+            .bottom-safe-area {
+                display: flex;
+                height: calc(20px + env(safe-area-inset-bottom));
+            }
+
+            #opensilver-root {
+                flex: 1 1 auto;
+            }
         }
     </style>
     <script>
@@ -68,11 +85,15 @@
             </div>
         </div>
     </div>
-    <div id="opensilver-root" style="position: relative; width: 100%; height: 100%; overflow-x: hidden; overflow-y: hidden"></div>
+
+    <div style="display: flex; flex-direction: column; height: 100%">
+        <div id="opensilver-root" style="position: relative; width: 100%; height: 100%; overflow-x: hidden; overflow-y: hidden"></div>
+        <div class="safe-area-bar bottom-safe-area"></div>
+    </div>
 
     <script>
         (function () {
-            console.log('1.0.8.3');
+            console.log('1.0.8.7');
             const script = document.createElement('script');
             script.setAttribute('type', 'application/javascript');
             script.setAttribute('src', 'libs/OpenSilver.js?date=' + new Date().toISOString());
@@ -80,63 +101,65 @@
                 const scriptWebAssembly = document.createElement('script');
                 scriptWebAssembly.setAttribute('type', 'application/javascript');
                 scriptWebAssembly.setAttribute('src', '_framework/blazor.webassembly.js?date=' + new Date().toISOString());
-                document.body.appendChild(scriptWebAssembly);
-                navigator.serviceWorker.register('service-worker.js')
-                    .then(reg => {
-                        reg.onupdatefound = () => {
-                            if (reg.active) { // it is not the first installation
-                                const newWorker = reg.installing;
-                                newWorker.onstatechange = () => {
-                                    if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                                        showUpdateToast();
-                                    }
-                                };
-                            }
-                        };
-                    });
+                scriptWebAssembly.addEventListener('load', function () {
+                    navigator.serviceWorker.register('service-worker.js')
+                        .then(reg => {
+                            reg.onupdatefound = () => {
+                                if (reg.active) { // it is not the first installation
+                                    const newWorker = reg.installing;
+                                    newWorker.onstatechange = () => {
+                                        if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                                            showUpdateToast();
+                                        }
+                                    };
+                                }
+                            };
+                        });
 
-                function showUpdateToast() {
-                    const toast = document.createElement('div');
-                    toast.innerHTML = `
-  <div style="
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #323232;
-    color: #fff;
-    padding: 16px 24px;
-    border-radius: 10px;
-    font-family: sans-serif;
-    font-size: 14px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    z-index: 10000;
-  ">
-    <span style="flex-grow: 1;">🔄 New version available.</span>
-    <button style="
-      background: #4caf50;
-      color: white;
-      border: none;
-      padding: 8px 16px;
-      font-size: 15px;
-      border-radius: 6px;
-      cursor: pointer;
-    " onclick="location.reload()">Refresh</button>
-    <button style="
-      background: transparent;
-      color: #ccc;
-      font-size: 22px;
-      border: none;
-      cursor: pointer;
-      margin-left: 4px;
-    " onclick="this.parentElement.remove()">×</button>
-  </div>
+                    function showUpdateToast() {
+                        const toast = document.createElement('div');
+                        toast.innerHTML = `
+                      <div style="
+                        position: fixed;
+                        bottom: 20px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        background: #323232;
+                        color: #fff;
+                        padding: 16px 24px;
+                        border-radius: 10px;
+                        font-family: sans-serif;
+                        font-size: 14px;
+                        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                        display: flex;
+                        align-items: center;
+                        gap: 12px;
+                        z-index: 10000;
+                      ">
+                        <span style="flex-grow: 1;">🔄 New version available (1.0.8.7).</span>
+                        <button style="
+                          background: #4caf50;
+                          color: white;
+                          border: none;
+                          padding: 8px 16px;
+                          font-size: 15px;
+                          border-radius: 6px;
+                          cursor: pointer;
+                        " onclick="location.reload()">Refresh</button>
+                        <button style="
+                          background: transparent;
+                          color: #ccc;
+                          font-size: 22px;
+                          border: none;
+                          cursor: pointer;
+                          margin-left: 4px;
+                        " onclick="this.parentElement.remove()">×</button>
+                      </div>
 `;
-                    document.body.appendChild(toast);
-                }
+                        document.body.appendChild(toast);
+                    }
+                });
+                document.body.appendChild(scriptWebAssembly);
             });
             document.body.appendChild(script);
         })();
