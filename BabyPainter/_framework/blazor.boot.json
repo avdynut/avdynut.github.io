@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BabyPainter.Browser",
   "resources": {
-    "hash": "sha256-tIQRb/vsMJD9iJDANHd0uz3JsMrSgajV7q475RVfp5c=",
+    "hash": "sha256-+x0ERZ1NBMjRQi/i55ir39FUzKYpadpmfcXECoOdl5w=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-Qm/xFowZgKyDp+QyQYsQkPdTpi6IQRcveXVgRTIZCt8="
     },
@@ -18,8 +18,8 @@
     },
     "coreAssembly": {},
     "assembly": {
-      "BabyPainter.Browser.wasm": "sha256-8yjzxVFr6eWUPpGJxuf2aDrXCzUCZ5MYAtax+gcRNNU=",
-      "BabyPainter.wasm": "sha256-BaMg98WnE32/LJWHydf6XrhB3SZYJwKWNuf9PqZFfO0=",
+      "BabyPainter.Browser.wasm": "sha256-eHhbrtTrnQ9VV0dm5b3OH3+rifqz9meprq+IizdnNmQ=",
+      "BabyPainter.wasm": "sha256-3MN6+oGbdCdKNFQP4nfZZYoDThS0gVV8fBesCK6lUYY=",
       "CommunityToolkit.Mvvm.wasm": "sha256-IoMMEvqEx2Ie4zzwc1G2wtYRoBc915BlroyfxWOntqc=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-CR2C3qfGgesYXq5lavULWtupsLmIpWpdDMKOFd/DKfg=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-um3I5IvC+xK9im+jwRBpYZh8ThXzR0w1cRyfSOy03lI=",
@@ -145,11 +145,11 @@
         "System.ServiceModel.Primitives.resources.wasm": "sha256-nI2TQgsJpyJvoXqmw4GQrSr7wogxytgEIssI9AIk5Go="
       },
       "es": {
-        "BabyPainter.resources.wasm": "sha256-TOITZQGhq7DttgU9zSCjkj1U+7n3kXCVm86YMJwyL/I=",
+        "BabyPainter.resources.wasm": "sha256-9ncdPOv+h/hLww1AaTL9QELHE8x57VwR/a1fRT9IBMU=",
         "System.ServiceModel.Primitives.resources.wasm": "sha256-Q+IEo6Y3ep+Yq3dGoNv+dONx+vbGjZWxMpZXpRNErfI="
       },
       "fr": {
-        "BabyPainter.resources.wasm": "sha256-q0E1vakX6EIoOZv75Xf0BXA13V2Ae/ZP0wgr7C7BWcI=",
+        "BabyPainter.resources.wasm": "sha256-QhCaF3Ei2rKTtbuUJBzJNAOPaqP+Z56b5SPEfvwly2w=",
         "System.ServiceModel.Primitives.resources.wasm": "sha256-Co/FgGAC4oUBaOKCXGTGERxAzccQSoSd+jDV0zItEpE="
       },
       "it": {
@@ -168,7 +168,7 @@
         "System.ServiceModel.Primitives.resources.wasm": "sha256-TcWpMeSDQCudiVBR8gxSc2WeRx/CzvGXfp0/KANOe3g="
       },
       "ru": {
-        "BabyPainter.resources.wasm": "sha256-zmKKa4IQyT6roZ1HiwcYT6eKr5dZy1KwNio8w558HKg=",
+        "BabyPainter.resources.wasm": "sha256-7057Mh+iQ0Xcthen5JsAH/JHrRpFbB887P6dhVGdbHo=",
         "System.ServiceModel.Primitives.resources.wasm": "sha256-fQAeCI4Ux+XEPUlsPnMTjYRqiVhEV3VSdvFu4B+xccY="
       },
       "tr": {

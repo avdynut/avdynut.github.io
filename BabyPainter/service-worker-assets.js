@@ -1,12 +1,12 @@
 self.assetsManifest = {
-  "version": "PKnqwNPL",
+  "version": "N63BBfeK",
   "assets": [
     {
-      "hash": "sha256-8yjzxVFr6eWUPpGJxuf2aDrXCzUCZ5MYAtax+gcRNNU=",
+      "hash": "sha256-eHhbrtTrnQ9VV0dm5b3OH3+rifqz9meprq+IizdnNmQ=",
       "url": "_framework/BabyPainter.Browser.wasm"
     },
     {
-      "hash": "sha256-BaMg98WnE32/LJWHydf6XrhB3SZYJwKWNuf9PqZFfO0=",
+      "hash": "sha256-3MN6+oGbdCdKNFQP4nfZZYoDThS0gVV8fBesCK6lUYY=",
       "url": "_framework/BabyPainter.wasm"
     },
     {
@@ -466,7 +466,7 @@ self.assetsManifest = {
       "url": "_framework/System.wasm"
     },
     {
-      "hash": "sha256-JRyp5M/UnGuPHQLn4wJL0eWhlDM17cvlAeU8TosiFxg=",
+      "hash": "sha256-wAOZVyKGT0RQgLnwSiGXx47Clrb6T0wTh3/VNJeMAmI=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -498,7 +498,7 @@ self.assetsManifest = {
       "url": "_framework/dotnet.runtime.js"
     },
     {
-      "hash": "sha256-TOITZQGhq7DttgU9zSCjkj1U+7n3kXCVm86YMJwyL/I=",
+      "hash": "sha256-9ncdPOv+h/hLww1AaTL9QELHE8x57VwR/a1fRT9IBMU=",
       "url": "_framework/es/BabyPainter.resources.wasm"
     },
     {
@@ -506,7 +506,7 @@ self.assetsManifest = {
       "url": "_framework/es/System.ServiceModel.Primitives.resources.wasm"
     },
     {
-      "hash": "sha256-q0E1vakX6EIoOZv75Xf0BXA13V2Ae/ZP0wgr7C7BWcI=",
+      "hash": "sha256-QhCaF3Ei2rKTtbuUJBzJNAOPaqP+Z56b5SPEfvwly2w=",
       "url": "_framework/fr/BabyPainter.resources.wasm"
     },
     {
@@ -554,7 +554,7 @@ self.assetsManifest = {
       "url": "_framework/pt-BR/System.ServiceModel.Primitives.resources.wasm"
     },
     {
-      "hash": "sha256-zmKKa4IQyT6roZ1HiwcYT6eKr5dZy1KwNio8w558HKg=",
+      "hash": "sha256-7057Mh+iQ0Xcthen5JsAH/JHrRpFbB887P6dhVGdbHo=",
       "url": "_framework/ru/BabyPainter.resources.wasm"
     },
     {
@@ -578,8 +578,36 @@ self.assetsManifest = {
       "url": "favicon.png"
     },
     {
-      "hash": "sha256-QM0AnhSCTPlsseYGHytwvPzynFXefwO/CEJX9xYS7Yw=",
+      "hash": "sha256-IhjHXFrbeA06wdGyA2Rp7j3iFMKc3b75nZL626G45oU=",
       "url": "index.html"
+    },
+    {
+      "hash": "sha256-TyPlP/z9sT+nSlPl9A+v1s6I8QkrHr3aI9mf9vLFXyw=",
+      "url": "libs/FileSaver.min.js"
+    },
+    {
+      "hash": "sha256-o11s8u2Vm7qvlDMUqGXO5Ko8uryvdpuo1x7r/u8Wb9o=",
+      "url": "libs/OpenSilver.js"
+    },
+    {
+      "hash": "sha256-WtbWw5WCrNlKYo26uWkQ8R5ORGO9kjKT1k++cLXAu+Y=",
+      "url": "libs/cshtml5.css"
+    },
+    {
+      "hash": "sha256-HtCRjm6qYRsKYYzmUVskByzPtwBysMK8Wh6ol6aBFc0=",
+      "url": "libs/cshtml5.js"
+    },
+    {
+      "hash": "sha256-SRexWsgp91RqscBTsGSZeGtFoFMWnzH0NsFsjrghQU4=",
+      "url": "libs/html2canvas.js"
+    },
+    {
+      "hash": "sha256-DQW+ly0Mt4GuuVTO4hff83tWkjUGom6OkXS7YfskZss=",
+      "url": "libs/quill.core.css"
+    },
+    {
+      "hash": "sha256-J5mFWyD7zrc7OhlKKE2xgxrsjGQJKmhu/SgEpUCRJAs=",
+      "url": "libs/quill.min.js"
     },
     {
       "hash": "sha256-cWTpF9u5TMI3/1iQzfYtgwUXQl/JL2wWD9BnkajCvPU=",
@@ -596,6 +624,298 @@ self.assetsManifest = {
     {
       "hash": "sha256-Viq00EeEOpQy2nCdr/3M0DVUkgRLUiUpx4imKtmDUR0=",
       "url": "privacy-policy.html"
+    },
+    {
+      "hash": "sha256-DsaH1s1AkZtBStfFAz0DxoLYRrtTzsoyQcuISSyQz/w=",
+      "url": "resources/babypainter/resources/audio/black.en.mp3"
+    },
+    {
+      "hash": "sha256-EJVk9+XjrHeV40UStccNRETxTbX+x+YeYoavsvxHaE4=",
+      "url": "resources/babypainter/resources/audio/black.es.mp3"
+    },
+    {
+      "hash": "sha256-+nnJ7fv2Ua8nk+8HIQhMS3r97/kfmfwFaJCSITZfyN0=",
+      "url": "resources/babypainter/resources/audio/black.fr.mp3"
+    },
+    {
+      "hash": "sha256-5/UvKaKMHHBVt1Q5+IrCa5pwcF3vnDdjK1wF+LKhUBQ=",
+      "url": "resources/babypainter/resources/audio/black.ru.mp3"
+    },
+    {
+      "hash": "sha256-ouiX2NKMoN34agwFPbgPopHxZ1zMbRSD/Db3sZcwEaw=",
+      "url": "resources/babypainter/resources/audio/blue.en.mp3"
+    },
+    {
+      "hash": "sha256-ub7QuXdKvy8fgtuyyBj5pD10THcLDSAr7lDGJgYDr+I=",
+      "url": "resources/babypainter/resources/audio/blue.es.mp3"
+    },
+    {
+      "hash": "sha256-s2Dej8IxIvalyiyhMaMBo1ZK075diRaZXpZs5L1FXos=",
+      "url": "resources/babypainter/resources/audio/blue.fr.mp3"
+    },
+    {
+      "hash": "sha256-wfLo0cXpK4Li5ZjdHe44Yl0O6Noy3SUpAt5fkxeTnRk=",
+      "url": "resources/babypainter/resources/audio/blue.ru.mp3"
+    },
+    {
+      "hash": "sha256-Rak0yWyV2rS7cgKOTUm8x66tCnLTkBeZG5GsijzR4jA=",
+      "url": "resources/babypainter/resources/audio/brown.en.mp3"
+    },
+    {
+      "hash": "sha256-zNK4qbzYIwAJBAAqtA6eGYQYyDWlOHNpiEi/d1Hp8Y4=",
+      "url": "resources/babypainter/resources/audio/brown.es.mp3"
+    },
+    {
+      "hash": "sha256-NjS5/N16eJ4GseVcErOsrh4TgA39mfoMvI9zdOie0go=",
+      "url": "resources/babypainter/resources/audio/brown.fr.mp3"
+    },
+    {
+      "hash": "sha256-6kbzLJZCzVJR1vb2Er7dQDNKUFjVn/k9tDCSQuOePaM=",
+      "url": "resources/babypainter/resources/audio/brown.ru.mp3"
+    },
+    {
+      "hash": "sha256-a5uuttazMud4xb/xWRIgkQAhVeerjdXbCU6ZKFgJId4=",
+      "url": "resources/babypainter/resources/audio/eight.en.mp3"
+    },
+    {
+      "hash": "sha256-cdu8ehwGsuIUW/FYkKMaetK+m4pqRNt9GHIkqdRQx6Y=",
+      "url": "resources/babypainter/resources/audio/eight.ru.mp3"
+    },
+    {
+      "hash": "sha256-tfwIkuowWzzcgkfj+z/6PHvHVEvp8rKyvYf90iSscGs=",
+      "url": "resources/babypainter/resources/audio/five.en.mp3"
+    },
+    {
+      "hash": "sha256-lRnIksMh9bR2NFXfmjiFnNjTr7gMHJwSTKhKwLzXTow=",
+      "url": "resources/babypainter/resources/audio/five.ru.mp3"
+    },
+    {
+      "hash": "sha256-VJcdg2xJi8QsLoodSvr5dXwa0R2baON4H9C7D/hhwFU=",
+      "url": "resources/babypainter/resources/audio/four.en.mp3"
+    },
+    {
+      "hash": "sha256-q9fOuSAoKg/1wmqoslzTO1gvsXMun0WENqfiEE/wFJI=",
+      "url": "resources/babypainter/resources/audio/four.ru.mp3"
+    },
+    {
+      "hash": "sha256-92cK7zGkeCPkDoLuqg3VHYDGreuuSHpo0mNE2stK/kI=",
+      "url": "resources/babypainter/resources/audio/gray.en.mp3"
+    },
+    {
+      "hash": "sha256-fwdg/VK4Ss0Gwpb1rNsTpwTM5rUuLdSus3lIaaXUdL4=",
+      "url": "resources/babypainter/resources/audio/gray.es.mp3"
+    },
+    {
+      "hash": "sha256-HA7936eUEH1dVUijd8iXo9IRhehVIlwvgz/t/aow9Ho=",
+      "url": "resources/babypainter/resources/audio/gray.fr.mp3"
+    },
+    {
+      "hash": "sha256-NDxoEy9XHwZSgxcj2OyTjf+9vAXrqIJMgX4eCDflGnU=",
+      "url": "resources/babypainter/resources/audio/gray.ru.mp3"
+    },
+    {
+      "hash": "sha256-eEHd2NC8QEef5wGDN79W0QH/Q7fnlKN8XBbFotCvMP8=",
+      "url": "resources/babypainter/resources/audio/green.en.mp3"
+    },
+    {
+      "hash": "sha256-6amAe0/yCClD6xuyxBe6czIqzjTREPBuuLESyJTh/go=",
+      "url": "resources/babypainter/resources/audio/green.es.mp3"
+    },
+    {
+      "hash": "sha256-VdbhBdx3ZhRdINBX3TfoDF61FK3rEI1xmKMYpSehu5s=",
+      "url": "resources/babypainter/resources/audio/green.fr.mp3"
+    },
+    {
+      "hash": "sha256-bxYlmZ4b9xh1jMGI9n4sgmPZ7fCWP7lEw6hxcQksHoY=",
+      "url": "resources/babypainter/resources/audio/green.ru.mp3"
+    },
+    {
+      "hash": "sha256-tQax/+8qBA0gwAk3wNs+ikxvU+wI5jKLmuFeZk+SBwE=",
+      "url": "resources/babypainter/resources/audio/nine.en.mp3"
+    },
+    {
+      "hash": "sha256-2ULQ85KQNAyNFm7L7haq1EZvGdEvZWmaO8lE2gL4CnI=",
+      "url": "resources/babypainter/resources/audio/nine.ru.mp3"
+    },
+    {
+      "hash": "sha256-rqD2X3YUq8JkqHlP+q+E/20xBpbK1bwHbFYs0NT/ydg=",
+      "url": "resources/babypainter/resources/audio/one.en.mp3"
+    },
+    {
+      "hash": "sha256-/g36uGeqxi0T13eu49XVtfmYDuIj+iypwiiVDCh2OfI=",
+      "url": "resources/babypainter/resources/audio/one.ru.mp3"
+    },
+    {
+      "hash": "sha256-WMRCghmYbk1nS0ITAtvPd4whbioVKZnd3vRaWIQzIJA=",
+      "url": "resources/babypainter/resources/audio/orange.en.mp3"
+    },
+    {
+      "hash": "sha256-MRIl8nEAsqJW+EDFiZQ4px7qWQB+He9lsl0KCGigoLk=",
+      "url": "resources/babypainter/resources/audio/orange.es.mp3"
+    },
+    {
+      "hash": "sha256-xkdcavZIvxXHut4XoQD8gm04204qtpTaqEzJWCCESzY=",
+      "url": "resources/babypainter/resources/audio/orange.fr.mp3"
+    },
+    {
+      "hash": "sha256-3Vwswh7JNlAT/MnZpPtEE81HawS2eSmiPSHyOSHI3AM=",
+      "url": "resources/babypainter/resources/audio/orange.ru.mp3"
+    },
+    {
+      "hash": "sha256-EojscFEjYPwWvARLx2uZxxGAtiL1UwnB6lU+bUiNeBo=",
+      "url": "resources/babypainter/resources/audio/pink.en.mp3"
+    },
+    {
+      "hash": "sha256-2AYW+691aiBRDfnGck7E4j/tRLFisF+RU3S9Ug1eB9w=",
+      "url": "resources/babypainter/resources/audio/pink.es.mp3"
+    },
+    {
+      "hash": "sha256-8YlybXG8qjCRCSjAURo+eA3pB2/7LnUwS8zTVPShbN4=",
+      "url": "resources/babypainter/resources/audio/pink.fr.mp3"
+    },
+    {
+      "hash": "sha256-NoY0diBf+L0Phjqmgo07QHOE+ygSslmn9hJZB2T5Cog=",
+      "url": "resources/babypainter/resources/audio/pink.ru.mp3"
+    },
+    {
+      "hash": "sha256-4NMEnq3NEsKrzj2C+RzAVRSSN/WrATMC0M3z5OQ/MjE=",
+      "url": "resources/babypainter/resources/audio/purple.en.mp3"
+    },
+    {
+      "hash": "sha256-52JKj5uKKLfZpovd3xNsSEfRnJdg4UK8lf/p8uCcXzs=",
+      "url": "resources/babypainter/resources/audio/purple.es.mp3"
+    },
+    {
+      "hash": "sha256-v98QQNNPMZo7sNhrYlCXvqWMO0O8Q37g/2DPOljV9cc=",
+      "url": "resources/babypainter/resources/audio/purple.fr.mp3"
+    },
+    {
+      "hash": "sha256-hZOd5gsPtj5y11DwMS5cvzbiSor9uwLG5vCZJq2LdME=",
+      "url": "resources/babypainter/resources/audio/purple.ru.mp3"
+    },
+    {
+      "hash": "sha256-hHW+o/CTQQAvjme1mN3f0ljR9aoHk1YbAdg46xYDvqw=",
+      "url": "resources/babypainter/resources/audio/red.en.mp3"
+    },
+    {
+      "hash": "sha256-YYA70vuj3Dj+F8P/Z+l4bLLp91Wtf4Ao5xjJt6QNzgc=",
+      "url": "resources/babypainter/resources/audio/red.es.mp3"
+    },
+    {
+      "hash": "sha256-LOxabgSbT73OAAxGqYE5M6oen195B4ag2su9nDSa9lE=",
+      "url": "resources/babypainter/resources/audio/red.fr.mp3"
+    },
+    {
+      "hash": "sha256-x66F3u0GKIqgAwMAAciW3ueIIqErRzgJrOxFP5arWCo=",
+      "url": "resources/babypainter/resources/audio/red.ru.mp3"
+    },
+    {
+      "hash": "sha256-PomvcWLWOVK/nR0mvuIWLEpJetdvd2nykovHWTBX8Ys=",
+      "url": "resources/babypainter/resources/audio/seven.en.mp3"
+    },
+    {
+      "hash": "sha256-9xUtWiVII9c4Zxwme/62YWplVg4Aog4PoCgFkrwTDuc=",
+      "url": "resources/babypainter/resources/audio/seven.ru.mp3"
+    },
+    {
+      "hash": "sha256-g60tdOxsAhJzhHL2nhCeSvO+IVbKbeKEQteKKcndURM=",
+      "url": "resources/babypainter/resources/audio/six.en.mp3"
+    },
+    {
+      "hash": "sha256-ffgapuchkILTIG8O85Ca75GiC8yt+aYddkf8m4ynNDc=",
+      "url": "resources/babypainter/resources/audio/six.ru.mp3"
+    },
+    {
+      "hash": "sha256-Z+TlOXG41mAhx7cXticxrr6pvGE/nUeMlRh6iqJtL0Y=",
+      "url": "resources/babypainter/resources/audio/skyblue.en.mp3"
+    },
+    {
+      "hash": "sha256-XKy/nQO2nkoU7QHt6ve9WI9NKpwqoSn9MBci8UoWm60=",
+      "url": "resources/babypainter/resources/audio/skyblue.es.mp3"
+    },
+    {
+      "hash": "sha256-njVDNwVQNGxYICAgHfs48HAMAR0A3dA161QMF0Yqy7A=",
+      "url": "resources/babypainter/resources/audio/skyblue.fr.mp3"
+    },
+    {
+      "hash": "sha256-tbyVC2lxudQUst0mR0whKYDOT/kfmt5i0YgLoTACBkw=",
+      "url": "resources/babypainter/resources/audio/skyblue.ru.mp3"
+    },
+    {
+      "hash": "sha256-5cKwia0vopLdSJacIc+VMUChQKIaVUoZeJYWEcaVvHQ=",
+      "url": "resources/babypainter/resources/audio/three.en.mp3"
+    },
+    {
+      "hash": "sha256-bJd2wiwbPvFPiOcOTSdYemitzndiHPOzcLDFw8d8TTM=",
+      "url": "resources/babypainter/resources/audio/three.ru.mp3"
+    },
+    {
+      "hash": "sha256-p5GTGCUl2YsAVWUADLzAHXTf7+jQXK1WlhsOovgX7Xc=",
+      "url": "resources/babypainter/resources/audio/two.en.mp3"
+    },
+    {
+      "hash": "sha256-sqmmeIhhoxUpf//FUeZdoza91u/BbwfzIAaJgde7g/M=",
+      "url": "resources/babypainter/resources/audio/two.ru.mp3"
+    },
+    {
+      "hash": "sha256-D1P0plPGfcEsWlZvp3RFd4lOoSjmR5rkdswBa9yuhoA=",
+      "url": "resources/babypainter/resources/audio/white.en.mp3"
+    },
+    {
+      "hash": "sha256-nqgygVO0zjeK5NxrFgTVH49LEbVeItanovV2FyMF99k=",
+      "url": "resources/babypainter/resources/audio/white.es.mp3"
+    },
+    {
+      "hash": "sha256-p3aZogxTavDYES9wc1u1EK3p4L4td877/gE542OIwTY=",
+      "url": "resources/babypainter/resources/audio/white.fr.mp3"
+    },
+    {
+      "hash": "sha256-bRtiAnxrrucVb8ByNMgH9C/RH3mWlp8Q5svIjFsj/qY=",
+      "url": "resources/babypainter/resources/audio/white.ru.mp3"
+    },
+    {
+      "hash": "sha256-PAzzKjedCr4eaKwT2qoiLQXQzRMdEb4ddRKxRvFmwCk=",
+      "url": "resources/babypainter/resources/audio/yellow.en.mp3"
+    },
+    {
+      "hash": "sha256-XgVRp+XpRoeaVizSsqj14x+1/eeBaFqYPTIT1de+Za4=",
+      "url": "resources/babypainter/resources/audio/yellow.es.mp3"
+    },
+    {
+      "hash": "sha256-k5eB3nrTQeLKVhkh5hgPwO6natsC58xaavkQP6nfqGU=",
+      "url": "resources/babypainter/resources/audio/yellow.fr.mp3"
+    },
+    {
+      "hash": "sha256-vKRdTX18v2ISuqtDj8ckGr3zgAa+kDnv6yaMklbXH1w=",
+      "url": "resources/babypainter/resources/audio/yellow.ru.mp3"
+    },
+    {
+      "hash": "sha256-7JelPoof8PDM5e2kwxyrFuYgLciUy4yvItVTcgtiIts=",
+      "url": "resources/babypainter/resources/audio/zero.en.mp3"
+    },
+    {
+      "hash": "sha256-iX4wijhaYRPGUiDX4jIX/SdFmXfcvVdikHJxWu9O5hM=",
+      "url": "resources/babypainter/resources/audio/zero.ru.mp3"
+    },
+    {
+      "hash": "sha256-q77UI9cpyXGxwP6hBTpd3pxq1McWc+l8tmmkIlEaoCs=",
+      "url": "resources/babypainter/resources/images/clean.png"
+    },
+    {
+      "hash": "sha256-ZBHEI1nEMwjabv9CQnLgJuM/ztsNrf/ndNVjq5FK3lA=",
+      "url": "resources/babypainter/resources/images/mark.png"
+    },
+    {
+      "hash": "sha256-DaLgZhdx5iBSLcDzeSk1rV74pGTKK0eDQJMG5zcg2Z4=",
+      "url": "resources/babypainter/resources/images/redo.png"
+    },
+    {
+      "hash": "sha256-yrSrMTYQHwvtiITLb6aHr96aUupLxYKtVlpaPYCLWg8=",
+      "url": "resources/babypainter/resources/images/settings.png"
+    },
+    {
+      "hash": "sha256-c5ThyDEKLvtPrQrtj+ABZs+iZZcxjeTlpYTC32bNHLk=",
+      "url": "resources/babypainter/resources/images/undo.png"
     }
   ]
 };
