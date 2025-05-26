@@ -1,12 +1,12 @@
 self.assetsManifest = {
-  "version": "N63BBfeK",
+  "version": "j3HweGxB",
   "assets": [
     {
-      "hash": "sha256-eHhbrtTrnQ9VV0dm5b3OH3+rifqz9meprq+IizdnNmQ=",
+      "hash": "sha256-QUwP6HaEVcjA7FRuD4RCV0zUnaULa2ByshhBGRd0RvQ=",
       "url": "_framework/BabyPainter.Browser.wasm"
     },
     {
-      "hash": "sha256-3MN6+oGbdCdKNFQP4nfZZYoDThS0gVV8fBesCK6lUYY=",
+      "hash": "sha256-t6x2wryrLRir4lPVblvz+Kwrq1U0ScjZK8HrbUe39mw=",
       "url": "_framework/BabyPainter.wasm"
     },
     {
@@ -466,7 +466,7 @@ self.assetsManifest = {
       "url": "_framework/System.wasm"
     },
     {
-      "hash": "sha256-wAOZVyKGT0RQgLnwSiGXx47Clrb6T0wTh3/VNJeMAmI=",
+      "hash": "sha256-WSn0MOcwg6YbY4occABIhthw4llJAmeHNCDyl075LT4=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -498,7 +498,7 @@ self.assetsManifest = {
       "url": "_framework/dotnet.runtime.js"
     },
     {
-      "hash": "sha256-9ncdPOv+h/hLww1AaTL9QELHE8x57VwR/a1fRT9IBMU=",
+      "hash": "sha256-MukNSzilL/Fdi/COZAj4enMQPm+coXgEjR2LvtAmY1w=",
       "url": "_framework/es/BabyPainter.resources.wasm"
     },
     {
@@ -506,7 +506,7 @@ self.assetsManifest = {
       "url": "_framework/es/System.ServiceModel.Primitives.resources.wasm"
     },
     {
-      "hash": "sha256-QhCaF3Ei2rKTtbuUJBzJNAOPaqP+Z56b5SPEfvwly2w=",
+      "hash": "sha256-ZOjcsShZnlprGSqsMd2yLc2/donmOVEdlkQAvqt0Zfo=",
       "url": "_framework/fr/BabyPainter.resources.wasm"
     },
     {
@@ -554,7 +554,7 @@ self.assetsManifest = {
       "url": "_framework/pt-BR/System.ServiceModel.Primitives.resources.wasm"
     },
     {
-      "hash": "sha256-7057Mh+iQ0Xcthen5JsAH/JHrRpFbB887P6dhVGdbHo=",
+      "hash": "sha256-U5jP+yNP7QArSvAU/EoVAL2aGgGHhcyd1/1g0y0BkEM=",
       "url": "_framework/ru/BabyPainter.resources.wasm"
     },
     {
@@ -578,7 +578,7 @@ self.assetsManifest = {
       "url": "favicon.png"
     },
     {
-      "hash": "sha256-IhjHXFrbeA06wdGyA2Rp7j3iFMKc3b75nZL626G45oU=",
+      "hash": "sha256-7LN1OhQAOAxqS2fbdrK42CGUs+8gn3V8Cs1O1QdjoPk=",
       "url": "index.html"
     },
     {
