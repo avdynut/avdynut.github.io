@@ -185,6 +185,7 @@ document.createImageManager = function (loadCallback, errorCallback) {
             element.style.lineHeight = '0px';
 
             const img = document._createElement('img', imgId, parent.windowid);
+            img.setAttribute('draggable', false);
             img.setAttribute('alt', ' ');
             img.style.display = 'none';
             img.style.width = 'inherit';
@@ -488,10 +489,9 @@ document.createInputManager = function (callback, pointerCallback) {
         KEYDOWN: 10,
         KEYUP: 11,
         KEYPRESS: 12,
-        FOCUS_MANAGED: 13,
-        FOCUS_UNMANAGED: 14,
-        WINDOW_FOCUS: 15,
-        WINDOW_BLUR: 16,
+        FOCUS_UNMANAGED: 13,
+        WINDOW_FOCUS: 14,
+        WINDOW_BLUR: 15,
     };
 
     const MODIFIERKEYS = {
@@ -503,17 +503,7 @@ document.createInputManager = function (callback, pointerCallback) {
     };
 
     const FocusManager = (function () {
-        let _timeoutID = null;
         let _isManagedFocusUpdate = false;
-
-        function startTimer() {
-            if (_timeoutID === null) {
-                _timeoutID = setTimeout(function () {
-                    _timeoutID = null;
-                    callback('', EVENTS.FOCUS_MANAGED, null);
-                });
-            }
-        };
 
         return {
             get isManagingFocus() {
@@ -528,12 +518,7 @@ document.createInputManager = function (callback, pointerCallback) {
                 element.focus({ preventScroll: true });
                 _isManagedFocusUpdate = false;
 
-                if (document.activeElement === element) {
-                    startTimer();
-                    return true;
-                }
-
-                return false;
+                return document.activeElement === element;
             },
         };
     })();
@@ -1072,7 +1057,7 @@ document.getSystemColor = function (color) {
     return '';
 };
 
-document.createTextviewManager = function (inputCallback, scrollCallback) {
+document.createTextviewManager = function (inputCallback, scrollCallback, selectionChangeCallback) {
     if (document.textviewManager) return;
 
     function getSelectionLength(view) {
@@ -1186,16 +1171,26 @@ document.createTextviewManager = function (inputCallback, scrollCallback) {
                 scrollCallback(id);
             });
 
+            view.addEventListener('selectionchange', function (e) {
+                selectionChangeCallback(id);
+            });
+
             view.addEventListener('paste', function (e) {
                 if (this.getAttribute('data-acceptsreturn') === 'false') {
-                    e.preventDefault();
-                    let content = (e.originalEvent || e).clipboardData.getData('text/plain');
-                    if (content !== undefined) {
-                        content = content.replace(/\n/g, '').replace(/\r/g, '');
+                    const text = e.clipboardData.getData('text/plain');
+
+                    if (text.indexOf('\n') !== -1 || text.indexOf('\r') !== -1) {
+                        e.preventDefault();
+
+                        const newText = text.replace(/[\r\n]+/g, '');
+                        document.execCommand('insertText', false, newText);
+
+                        // Scroll to the cursor position
+                        this.blur();
+                        this.focus();
                     }
-                    document.execCommand('insertText', false, content);
                 }
-            }, false);
+            });
 
             parent.appendChild(view);
         },
